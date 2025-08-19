@@ -5,6 +5,21 @@ import '../presentation/screens/item_details_screen.dart';
 class PopularItemsController {
   final List<PopularItem> items = [
     PopularItem(
+      text: 'Plastic',
+      image: 'aseets/images/homescreen/PopularItems/palsric-removebg-preview.png',
+      price: 8,
+    ),
+    PopularItem(
+      text: 'Cans',
+      image: 'aseets/images/homescreen/PopularItems/cans2.png',
+      price: 7,
+    ),
+    PopularItem(
+      text: 'Paper',
+      image: 'aseets/images/homescreen/PopularItems/poster-mock-up-removebg-preview.png',
+      price: 2,
+    ),
+    PopularItem(
       text: 'Cooking Oil',
       image: 'aseets/images/homescreen/PopularItems/oil-removebg-preview.png',
       price: 10,
@@ -13,16 +28,6 @@ class PopularItemsController {
       text: 'Carton Packs',
       image: 'aseets/images/homescreen/PopularItems/boxs.png',
       price: 5,
-    ),
-    PopularItem(
-      text: 'Plastic',
-      image: 'aseets/images/homescreen/PopularItems/palsric-removebg-preview.png',
-      price: 8,
-    ),
-    PopularItem(
-      text: 'Paper',
-      image: 'aseets/images/homescreen/PopularItems/poster-mock-up-removebg-preview.png',
-      price: 2,
     ),
   ];
 
