@@ -15,21 +15,21 @@ class SignScreen extends StatelessWidget {
       appBar: AppBar(),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center, // يحط العناصر على اليسار
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            SizedBox(height: screenHeight * 0.1), // مسافة من الأعلى عشان تبعد الصورة شوية
+            SizedBox(height: screenHeight * 0.1),
             Center(
               child: Image.asset(
                 "aseets/images/15ab32a3-cbd5-4eb0-bd9a-c6498a7d826f-removebg-preview.png",
-                width: screenWidth * 0.6, // حجم الصورة يكون 60% من عرض الشاشة
-                height: screenHeight * 0.16, // حجم الصورة يكون 30% من ارتفاع الشاشة
-                fit: BoxFit.contain, // يخلي الصورة متناسقة بدون قص
+                width: screenWidth * 0.6,
+                height: screenHeight * 0.16,
+                fit: BoxFit.contain,
               ),
             ),
             SizedBox(height: 20),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.08), // بادنج من اليمين واليسار
+              padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.08),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -190,7 +190,7 @@ class SignScreen extends StatelessWidget {
             ),
             SizedBox(height: 30,),
             SizedBox(
-              width: MediaQuery.of(context).size.width * 0.8, // 80% من عرض الشاشة
+              width: MediaQuery.of(context).size.width * 0.8,
               child: ElevatedButton(
                 onPressed: () {
                 },

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../config/theme/app_text_styles.dart';
 import '../../../config/theme/theme.dart';
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
@@ -39,7 +40,7 @@ class ChatScreen extends StatelessWidget {
                   // Title
                   Text(
                     'Chat Us',
-                    style: AppTheme.headingStyle.copyWith(
+                    style: AppTextStyles.headingStyle.copyWith(
                       fontSize: screenWidth * 0.06,
                     ),
                   ),

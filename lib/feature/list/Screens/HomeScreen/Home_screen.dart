@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../config/theme/app_colors.dart';
 import '../../../../config/theme/theme.dart';
 import '../ContentSceen/home_content.dart';
 import '../cameraScreen/CameraScreen.dart';
@@ -69,9 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: AppTheme.primaryColor,
+          selectedItemColor: AppColors.primaryColor,
           unselectedItemColor: Colors.grey,
-          backgroundColor: AppTheme.backgroundColor,
+          backgroundColor: AppColors.backgroundColor,
           onTap: _onItemTapped,
           type: BottomNavigationBarType.fixed,
         ),

@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart'; // استيراد مكتبة الأنيميشن
+import '../../../../config/theme/app_text_styles.dart';
 import '../../../../config/theme/theme.dart';
 
 class SendImageScreen extends StatefulWidget {
@@ -96,7 +97,7 @@ class _SendImageScreenState extends State<SendImageScreen> {
         appBar: AppBar(
           title: Text(
             widget.imagePath != null ? 'Send Image' : 'Send Message',
-            style: AppTheme.headingStyle.copyWith(
+            style: AppTextStyles.headingStyle.copyWith(
               fontSize: screenWidth * 0.05,
             ),
           ),

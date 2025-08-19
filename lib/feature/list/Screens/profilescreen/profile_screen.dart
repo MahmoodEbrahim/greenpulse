@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:greenpulse/config/theme/app_colors.dart';
+import '../../../../config/theme/app_text_styles.dart';
 import '../../../../config/theme/theme.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -68,7 +70,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                           Text(
                             'Guest',
-                            style: AppTheme.headingStyle.copyWith(
+                            style: AppTextStyles.headingStyle.copyWith(
                               fontSize: screenWidth * 0.06,
                             ),
                           ),
@@ -84,7 +86,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     style: TextStyle(
                       fontSize: screenWidth * 0.05,
                       fontWeight: FontWeight.bold,
-                      color: AppTheme.primaryColor,
+                      color: AppColors.primaryColor,
                     ),
                   ),
                   SizedBox(height: screenHeight * 0.02),
@@ -131,7 +133,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     style: TextStyle(
                       fontSize: screenWidth * 0.05,
                       fontWeight: FontWeight.bold,
-                      color: AppTheme.primaryColor,
+                      color: AppColors.primaryColor,
                     ),
                   ),
                   SizedBox(height: screenHeight * 0.02),

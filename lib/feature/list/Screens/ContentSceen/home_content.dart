@@ -2,6 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
 import 'package:greenpulse/feature/list/Screens/ContentSceen/popular_items.dart';
+import '../../../../config/theme/app_colors.dart';
+import '../../../../config/theme/app_text_styles.dart';
 import '../../../../config/theme/theme.dart';
 import 'RecentlyAdded.dart';
 
@@ -65,7 +67,7 @@ class HomeContent extends StatelessWidget {
               SizedBox(height: screenHeight * 0.03),
               Text(
                 'Recycle & Reuse',
-                style: AppTheme.headingStyle.copyWith(
+                style: AppTextStyles.headingStyle.copyWith(
                   fontSize: screenWidth * 0.06,
                 ),
                 textAlign: TextAlign.center,
@@ -83,7 +85,7 @@ class HomeContent extends StatelessWidget {
                 children: [
                   Text(
                     'Popular',
-                    style: AppTheme.headingStyle.copyWith(
+                    style: AppTextStyles.headingStyle.copyWith(
                       fontSize: screenWidth * 0.04,
                     ),
                     textAlign: TextAlign.center,
@@ -106,7 +108,7 @@ class HomeContent extends StatelessWidget {
     final screenWidth = MediaQuery.of(context).size.width;
     return Container(
       decoration: BoxDecoration(
-        color: AppTheme.accentColor,
+        color: AppColors.accentColor,
         borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(
@@ -123,12 +125,12 @@ class HomeContent extends StatelessWidget {
           Icon(
             icon,
             size: screenWidth * 0.12,
-            color: AppTheme.primaryColor,
+            color: AppColors.primaryColor,
           ),
           SizedBox(height: screenWidth * 0.025),
           Text(
             label,
-            style: AppTheme.bodyTextStyle.copyWith(
+            style: AppTextStyles.bodyTextStyle.copyWith(
               fontSize: screenWidth * 0.045,
             ),
           ),
