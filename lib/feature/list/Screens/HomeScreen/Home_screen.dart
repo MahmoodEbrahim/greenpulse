@@ -60,10 +60,9 @@ class _HomeScreenState extends State<HomeScreen> {
               label: 'Chat',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.camera_alt), // غيرنا الأيقونة لكاميرا
+              icon: Icon(Icons.camera_alt),
               label: 'Camera',
             ),
-
             BottomNavigationBarItem(
               icon: Icon(Icons.person),
               label: 'Profile',

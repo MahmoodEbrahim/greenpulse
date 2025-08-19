@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:greenpulse/config/theme/app_colors.dart';
 
 class CoinWidget extends StatelessWidget {
   final int coins;
@@ -21,12 +22,12 @@ class CoinWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.amber.withOpacity(0.3),
+            color: Colors.amber.withOpacity(0.1),
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),
         ],
-        border: Border.all(color: Colors.amber, width: 1),
+        border: Border.all(color: AppColors.secondaryColor, width: 1),
       ),
       child: Row(
         children: [
