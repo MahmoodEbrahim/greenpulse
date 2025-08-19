@@ -26,19 +26,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
       child: Scaffold(
         body: Stack(
           children: [
-            // Background Image
-            Positioned.fill(
-              child: Image.asset(
-                'aseets/images/chat2screen.jpeg',
-                fit: BoxFit.cover,
-              ),
-            ),
-            // White Overlay with Opacity
-            Positioned.fill(
-              child: Container(
-                color: Colors.blueGrey.withOpacity(overlayOpacity),
-              ),
-            ),
             // Content
             SingleChildScrollView(
               padding: EdgeInsets.symmetric(
