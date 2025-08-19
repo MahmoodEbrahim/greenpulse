@@ -18,14 +18,8 @@ class ChatScreen extends StatelessWidget {
           children: [
             // Background Image
             Positioned.fill(
-              child: Image.asset(
-                'aseets/images/chat3.jpg',
-                fit: BoxFit.cover,
-              ),
-            ),
-            Positioned.fill(
               child: Container(
-                color: Colors.grey.withOpacity(overlayOpacity),
+                color: Colors.white.withOpacity(overlayOpacity),
               ),
             ),
             // Content
